@@ -6,6 +6,9 @@ const maxLength = 128;
 export const caracteresAllowed =
   'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789-._~';
 
+/**
+ * See https://tools.ietf.org/html/rfc7636#section-4.1 to more information
+ */
 export default (length = maxLength): string => {
   if (length < minLength || length > maxLength) {
     throw new Error(
