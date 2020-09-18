@@ -1,4 +1,3 @@
-import Provider from '.';
 import OpenIDProvider from './OpenIDProvider';
 
 export default class GoogleProvider extends OpenIDProvider {
