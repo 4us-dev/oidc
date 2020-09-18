@@ -3,7 +3,7 @@
 <head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>&quot;ClientAuth/index&quot; | @4us-dev/oidc</title>
+	<title>&quot;PKCE/codeVerifierGenerator&quot; | @4us-dev/oidc</title>
 	<meta name="description" content="Documentation for @4us-dev/oidc">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" href="../assets/css/main.css">
@@ -56,10 +56,10 @@
 					<a href="../globals.html">Globals</a>
 				</li>
 				<li>
-					<a href="_clientauth_index_.html">&quot;ClientAuth/index&quot;</a>
+					<a href="_pkce_codeverifiergenerator_.html">&quot;PKCE/codeVerifierGenerator&quot;</a>
 				</li>
 			</ul>
-			<h1>Module &quot;ClientAuth/index&quot;</h1>
+			<h1>Module &quot;PKCE/codeVerifierGenerator&quot;</h1>
 		</div>
 	</div>
 </header>
@@ -71,18 +71,58 @@
 				<section class="tsd-panel tsd-index-panel">
 					<div class="tsd-index-content">
 						<section class="tsd-index-section ">
-							<h3>Classes</h3>
+							<h3>Variables</h3>
 							<ul class="tsd-index-list">
-								<li class="tsd-kind-class tsd-parent-kind-module"><a href="../classes/_clientauth_index_.clientauth.html" class="tsd-kind-icon">Client<wbr>Auth</a></li>
-							</ul>
-						</section>
-						<section class="tsd-index-section ">
-							<h3>Interfaces</h3>
-							<ul class="tsd-index-list">
-								<li class="tsd-kind-interface tsd-parent-kind-module"><a href="../interfaces/_clientauth_index_.clientauthconfig.html" class="tsd-kind-icon">Client<wbr>Auth<wbr>Config</a></li>
+								<li class="tsd-kind-variable tsd-parent-kind-module"><a href="_pkce_codeverifiergenerator_.html#caracteresallowed" class="tsd-kind-icon">caracteres<wbr>Allowed</a></li>
+								<li class="tsd-kind-variable tsd-parent-kind-module tsd-is-not-exported"><a href="_pkce_codeverifiergenerator_.html#maxlength" class="tsd-kind-icon">max<wbr>Length</a></li>
+								<li class="tsd-kind-variable tsd-parent-kind-module tsd-is-not-exported"><a href="_pkce_codeverifiergenerator_.html#minlength" class="tsd-kind-icon">min<wbr>Length</a></li>
+								<li class="tsd-kind-variable tsd-parent-kind-module tsd-is-not-exported"><a href="_pkce_codeverifiergenerator_.html#randomutils" class="tsd-kind-icon">random<wbr>Utils</a></li>
 							</ul>
 						</section>
 					</div>
+				</section>
+			</section>
+			<section class="tsd-panel-group tsd-member-group ">
+				<h2>Variables</h2>
+				<section class="tsd-panel tsd-member tsd-kind-variable tsd-parent-kind-module">
+					<a name="caracteresallowed" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagConst">Const</span> caracteres<wbr>Allowed</h3>
+					<div class="tsd-signature tsd-kind-icon">caracteres<wbr>Allowed<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">"ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789-._~"</span><span class="tsd-signature-symbol"> = &quot;ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789-._~&quot;</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/4us-dev/oidc/blob/bbdc9ae/src/PKCE/codeVerifierGenerator.ts#L6">PKCE/codeVerifierGenerator.ts:6</a></li>
+						</ul>
+					</aside>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-variable tsd-parent-kind-module tsd-is-not-exported">
+					<a name="maxlength" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagConst">Const</span> max<wbr>Length</h3>
+					<div class="tsd-signature tsd-kind-icon">max<wbr>Length<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">128</span><span class="tsd-signature-symbol"> = 128</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/4us-dev/oidc/blob/bbdc9ae/src/PKCE/codeVerifierGenerator.ts#L5">PKCE/codeVerifierGenerator.ts:5</a></li>
+						</ul>
+					</aside>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-variable tsd-parent-kind-module tsd-is-not-exported">
+					<a name="minlength" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagConst">Const</span> min<wbr>Length</h3>
+					<div class="tsd-signature tsd-kind-icon">min<wbr>Length<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">43</span><span class="tsd-signature-symbol"> = 43</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/4us-dev/oidc/blob/bbdc9ae/src/PKCE/codeVerifierGenerator.ts#L4">PKCE/codeVerifierGenerator.ts:4</a></li>
+						</ul>
+					</aside>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-variable tsd-parent-kind-module tsd-is-not-exported">
+					<a name="randomutils" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagConst">Const</span> random<wbr>Utils</h3>
+					<div class="tsd-signature tsd-kind-icon">random<wbr>Utils<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">RandomUtils</span><span class="tsd-signature-symbol"> = new RandomUtils()</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/4us-dev/oidc/blob/bbdc9ae/src/PKCE/codeVerifierGenerator.ts#L3">PKCE/codeVerifierGenerator.ts:3</a></li>
+						</ul>
+					</aside>
 				</section>
 			</section>
 		</div>
@@ -92,13 +132,13 @@
 					<li class="globals  ">
 						<a href="../globals.html"><em>Globals</em></a>
 					</li>
-					<li class="current tsd-kind-module">
+					<li class=" tsd-kind-module">
 						<a href="_clientauth_index_.html">&quot;<wbr>Client<wbr>Auth/index&quot;</a>
 					</li>
 					<li class=" tsd-kind-module">
 						<a href="_pkce_codechallengegenerator_.html">&quot;PKCE/code<wbr>Challenge<wbr>Generator&quot;</a>
 					</li>
-					<li class=" tsd-kind-module">
+					<li class="current tsd-kind-module">
 						<a href="_pkce_codeverifiergenerator_.html">&quot;PKCE/code<wbr>Verifier<wbr>Generator&quot;</a>
 					</li>
 					<li class=" tsd-kind-module">
@@ -129,11 +169,17 @@
 			</nav>
 			<nav class="tsd-navigation secondary menu-sticky">
 				<ul class="before-current">
-					<li class=" tsd-kind-class tsd-parent-kind-module">
-						<a href="../classes/_clientauth_index_.clientauth.html" class="tsd-kind-icon">Client<wbr>Auth</a>
+					<li class=" tsd-kind-variable tsd-parent-kind-module">
+						<a href="_pkce_codeverifiergenerator_.html#caracteresallowed" class="tsd-kind-icon">caracteres<wbr>Allowed</a>
 					</li>
-					<li class=" tsd-kind-interface tsd-parent-kind-module">
-						<a href="../interfaces/_clientauth_index_.clientauthconfig.html" class="tsd-kind-icon">Client<wbr>Auth<wbr>Config</a>
+					<li class=" tsd-kind-variable tsd-parent-kind-module tsd-is-not-exported">
+						<a href="_pkce_codeverifiergenerator_.html#maxlength" class="tsd-kind-icon">max<wbr>Length</a>
+					</li>
+					<li class=" tsd-kind-variable tsd-parent-kind-module tsd-is-not-exported">
+						<a href="_pkce_codeverifiergenerator_.html#minlength" class="tsd-kind-icon">min<wbr>Length</a>
+					</li>
+					<li class=" tsd-kind-variable tsd-parent-kind-module tsd-is-not-exported">
+						<a href="_pkce_codeverifiergenerator_.html#randomutils" class="tsd-kind-icon">random<wbr>Utils</a>
 					</li>
 				</ul>
 			</nav>
