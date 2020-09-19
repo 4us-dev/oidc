@@ -64,6 +64,7 @@
     }
   },
   "dependencies": {
+    "@4us-dev/crypto": "0.0.1",
     "@4us-dev/utils": "0.0.5"
   }
 }
